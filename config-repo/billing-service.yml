@@ -1,3 +1,6 @@
-spring.datasource.url=jdbc:h2:mem:bills-db
-spring.data.rest.base-path=/api
-
+spring:
+  datasource:
+    url: jdbc:h2:mem:bills-db
+  data:
+    rest:
+      base-path: /api

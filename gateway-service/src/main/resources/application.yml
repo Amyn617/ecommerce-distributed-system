@@ -2,24 +2,14 @@ spring:
   application:
     name: gateway-service
   cloud:
+    config:
+      enabled: false
+    discovery:
+      enabled: true
     gateway:
       discovery:
         locator:
-          lower-case-service-id:
-            true # lowercase service name
-    #      routes:
-    #        - id: r1
-    #          uri: lb://CUSTOMER-SERVICE # Uppercase
-    #          predicates:
-    #            Path=/api/customers/**
-    #        - id: r2
-    #          uri: lb://INVENTORY-SERVICE
-    #          predicates:
-    #            Path=/api/products/**
-    discovery:
-      enabled: true
-    config:
-      enabled: false
+          lower-case-service-id: true
 server:
   port: 8888
 eureka:

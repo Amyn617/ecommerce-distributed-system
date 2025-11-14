@@ -1,29 +1,7 @@
 spring:
   application:
     name: inventory-service
-  datasource:
-    url: jdbc:h2:mem:products-db
-  h2:
-    console:
-      enabled: true
-  cloud:
-    discovery:
-      enabled: true
-    config:
-      enabled: false
-  data:
-    rest:
-      base-path: /api
+  config:
+    import: optional:configserver:http://localhost:9999
 server:
   port: 8082
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*" # actuator
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-  instance:
-    prefer-ip-address: true

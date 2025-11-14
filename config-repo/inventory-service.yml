@@ -1,2 +1,6 @@
-spring.datasource.url=jdbc:h2:mem:products-db
-spring.data.rest.base-path=/api
+spring:
+  datasource:
+    url: jdbc:h2:mem:products-db
+  data:
+    rest:
+      base-path: /api
