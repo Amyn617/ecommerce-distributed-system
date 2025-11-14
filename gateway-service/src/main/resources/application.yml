@@ -7,15 +7,15 @@ spring:
         locator:
           lower-case-service-id:
             true # lowercase service name
-#      routes:
-#        - id: r1
-#          uri: lb://CUSTOMER-SERVICE # Uppercase
-#          predicates:
-#            Path=/api/customers/**
-#        - id: r2
-#          uri: lb://INVENTORY-SERVICE
-#          predicates:
-#            Path=/api/products/**
+    #      routes:
+    #        - id: r1
+    #          uri: lb://CUSTOMER-SERVICE # Uppercase
+    #          predicates:
+    #            Path=/api/customers/**
+    #        - id: r2
+    #          uri: lb://INVENTORY-SERVICE
+    #          predicates:
+    #            Path=/api/products/**
     discovery:
       enabled: true
     config:

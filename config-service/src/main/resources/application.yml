@@ -1,14 +1,11 @@
 spring:
   application:
-    name:
-      config-service
+    name: config-service
   cloud:
     config:
       server:
         git:
-          uri:
-            https://github.com/Amyn617/ecommerce-distributed-system/config-repo
+          uri: https://github.com/Amyn617/ecommerce-distributed-system/tree/main/config-repo
 
 server:
-  port:
-    9999
+  port: 9999
