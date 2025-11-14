@@ -1,4 +1,4 @@
-package ma.enset.billingservice.dtos;
+package ma.enset.billingservice.model;
 
 import lombok.Getter;
 import lombok.Setter;

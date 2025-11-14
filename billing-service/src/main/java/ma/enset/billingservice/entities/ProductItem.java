@@ -3,7 +3,7 @@ package ma.enset.billingservice.entities;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.*;
-import ma.enset.billingservice.dtos.Product;
+import ma.enset.billingservice.model.Product;
 
 @Entity
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder

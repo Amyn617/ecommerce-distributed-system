@@ -1,10 +1,9 @@
-package ma.enset.billingservice.dtos;
+package ma.enset.billingservice.model;
 
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
+@Getter @Setter
 public class Customer {
     private Long id;
     private String name;

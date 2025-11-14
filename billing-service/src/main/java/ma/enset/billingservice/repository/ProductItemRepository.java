@@ -1,4 +1,4 @@
-package ma.enset.billingservice.repositories;
+package ma.enset.billingservice.repository;
 
 import ma.enset.billingservice.entities.ProductItem;
 import org.springframework.data.jpa.repository.JpaRepository;
