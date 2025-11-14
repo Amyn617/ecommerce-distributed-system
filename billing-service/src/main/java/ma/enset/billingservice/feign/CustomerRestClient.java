@@ -11,6 +11,6 @@ public interface CustomerRestClient {
     @GetMapping("/api/customers/{id}")
     Customer getCustomerById(@PathVariable Long id);
 
-    @GetMapping("/api/customers/")
+    @GetMapping("/api/customers")
     PagedModel<Customer> getAllCustomers();
 }

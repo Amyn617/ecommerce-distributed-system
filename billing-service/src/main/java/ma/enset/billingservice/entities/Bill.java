@@ -8,7 +8,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-@Entity @NoArgsConstructor
+@Entity
+@NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
@@ -18,9 +19,9 @@ public class Bill {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Date billingDate;
-    private Long customerId;
+    private long customerId;
     @OneToMany(mappedBy = "bill")
-    private List<ProductItem> productItem = new ArrayList<>();
+    private List<ProductItem> productItems = new ArrayList<>();
     @Transient
     private Customer customer;
 }

@@ -28,5 +28,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     prefer-ip-address: true
-
-    # 30:53 video 2
