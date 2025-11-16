@@ -3,7 +3,7 @@
 Ce projet est une implémentation d'une architecture microservices complète basée sur l'écosystème Spring Boot et Spring Cloud. Il simule un système de gestion simple (potentiellement e-commerce) avec des services distincts pour les clients, les produits et la facturation.
 
 ## Architecture Globale
-
+<img width="2216" height="1607" alt="image" src="https://github.com/user-attachments/assets/6b8069c5-dbae-4770-8e08-38f962635918" />
 L'architecture est composée des services suivants :
 
 - **Discovery-Service (Eureka)** : Un annuaire de services (Service Discovery) où tous les autres microservices s'enregistrent.
