@@ -8,3 +8,8 @@ spring:
     import: optional:configserver:http://localhost:9999
 server:
   port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

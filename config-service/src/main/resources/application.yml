@@ -5,6 +5,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Amyn617/ecommerce-distributed-system/tree/main/config-repo
+          uri: /home/amyn/IdeaProjects/ecommerce/config-repo
 server:
   port: 9999
